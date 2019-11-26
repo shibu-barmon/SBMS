@@ -1,0 +1,5 @@
+G:\CSharpDotNet\TheUCFour\TheUCFour.ViewModel\bin\Debug\TheUCFour.ViewModel.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour.ViewModel\bin\Debug\TheUCFour.ViewModel.pdb
+G:\CSharpDotNet\TheUCFour\TheUCFour.ViewModel\obj\Debug\TheUCFour.ViewModel.csproj.CoreCompileInputs.cache
+G:\CSharpDotNet\TheUCFour\TheUCFour.ViewModel\obj\Debug\TheUCFour.ViewModel.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour.ViewModel\obj\Debug\TheUCFour.ViewModel.pdb

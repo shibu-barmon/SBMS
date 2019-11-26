@@ -1,0 +1,395 @@
+﻿@model TheUCFour.Models.PurchaseViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section MyStyle
+{
+    <style>
+        input[type=text], select {
+            width: 20%;
+            padding: 0px 0px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background: #ffe6e6;
+        }
+
+        input[type=submit] {
+            width: 12%;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 55%;
+        }
+
+            input[type=submit]:hover {
+                background-color: #45a049;
+            }
+
+        /*For table*/
+        #customers {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+            #customers td, #customers th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #customers tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #customers tr:hover {
+                background-color: #ddd;
+            }
+
+            #customers th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: white;
+                text-align: center;
+            }
+
+            #customers tr td label {
+                margin: 0 auto;
+            }
+
+            #customers tr td input {
+                width: 100%;
+                padding: 3px;
+            }
+
+        #Remarks {
+            width: 100%;
+            padding: 5px;
+        }
+
+        #Add {
+            float: right;
+            padding: 4px;
+            width: 6%;
+            background: #ff8000;
+        }
+
+        /*************Second Table***************/
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        #tblsubmit {
+            float: right;
+            width: 12%;
+        }
+    </style>
+}
+
+
+
+<div>
+    <h5>Supplier</h5>
+    <form method="post">
+        <div>
+            <fieldset>
+                <legend style="border:1px solid #ced9d1;padding:10px;background:#bbff99">
+                    
+                    @Html.LabelFor(c => c.Date)
+                    @Html.TextBoxFor(c => c.Date, new { id = "suppDate" })
+                    @*<label for="suppDate">Date</label>
+        <input type="text" id="suppDate" name="suppDate">*@
+
+                    @Html.LabelFor(c => c.InvoiceNo)
+                    @Html.TextBoxFor(c => c.InvoiceNo, Model.InvoiceNo)
+                    @*@Html.ValidationMessageFor(c => c.InvoiceNo)*@
+                   
+
+                    @Html.LabelFor(c => c.Supplier)
+                    @Html.DropDownListFor(c => c.SupplierId, Model.SupplierSelectListItems, "--Select--")
+                </legend>
+            </fieldset>
+        </div>
+
+        <div>
+            <h5>Products</h5>
+            <table id="customers">
+                <tr>
+
+                    @*<td>@Html.LabelFor(c => c.Category)</td>
+        <td>@Html.DropDownListFor(c => c.CategoryId, Model.CategorySelectListItems, "--Select--", new { @class = "form-control", id = "Category" })</td>
+
+        <td>@Html.LabelFor(c => c.Product)</td>
+        <td>@Html.DropDownListFor(c => c.ProductId, Model.ProductSelectListItems, "--Select--", new { @class = "form-control", id = "Product" })</td>*@
+
+                    <td><label for="CategoryId">Category</label></td>
+                    <td><input type="text" id="CategoryId" name="CategoryId"></td>
+
+                    <td><label for="ProductId">Product</label></td>
+                    <td><input type="text" id="ProductId" name="ProductId"></td>
+
+                    <td><label for="Code">Code</label></td>
+                    <td><input type="text" id="Code" name="Code"></td>
+                </tr>
+                <tr>
+                    <td><label for="AvailableQuantity">Available Quantity</label></td>
+                    <td><input type="text" id="AvailableQuantity" name="AvailableQuantity"></td>
+
+                    <td><label for="ManufactureDate">Manufacture Date</label></td>
+                    <td><input type="text" id="ManufactureDate" name="ManufactureDate"></td>
+
+                    <td><label for="ExpireDate">Expire Date</label></td>
+                    <td><input type="text" id="ExpireDate" name="ExpireDate"></td>
+                </tr>
+                <tr>
+                    <td><label for="Quantity">Quantity</label></td>
+                    <td><input type="text" id="Quantity" name="Quantity"></td>
+
+                    <td><label for="UnitPrice">Unit Price</label></td>
+                    <td><input type="text" id="UnitPrice" name="UnitPrice"></td>
+
+                    <td><label for="TotalPrice">Total Price</label></td>
+                    <td><input type="text" id="TotalPrice" name="TotalPrice"></td>
+                </tr>
+                <tr>
+                    <td><label for="PreviousUnitPrice">Previous<br />Unit Price</label></td>
+                    <td><input type="text" id="PreviousUnitPrice" name="PreviousUnitPrice"></td>
+
+                    <td><label for="PreviousMRP">Previous MRP</label></td>
+                    <td><input type="text" id="PreviousMRP" name="PreviousMRP"></td>
+
+                    <td><label for="MRP">MRP</label></td>
+                    <td><input type="text" id="MRP" name="MRP"></td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td><label for="Remarks">Remarks:</label></td>
+                    <td><textarea rows="2" cols="50" name="Remarks" id="Remarks"></textarea></td>
+                </tr>
+            </table>
+            <input type="button" id="Add" value="Add" />
+        </div>
+
+        <div>
+            <table>
+
+                <thead>
+                    <tr>
+                        <td>Sl</td>
+                        <td>Category</td>
+                        <td>Product</td>
+                        <td>Code</td>
+                        <td>AvailableQuantity</td>
+                        <td>ManufactureDate</td>
+                        <td>ExpireDate</td>
+                        <td>Quantity</td>
+                        <td>UnitPrice</td>
+                        <td>TotalPrice</td>
+                        <td>PreviousUnitPrice</td>
+                        <td>PreviousMRP</td>
+                        <td>MRP</td>
+                        <td>Remarks</td>
+                    </tr>
+                </thead>
+                <tbody id="ResultDetailsTable">
+                    @*<tr>
+                        <td>Sl</td>
+                        <td>Subject</td>
+                        <td>Marks</td>
+                    </tr>*@
+                </tbody>
+
+            </table>
+        </div>
+        <table>
+            <tr>
+                <td><input type="submit" value="Save" id="tblsubmit" /></td>
+            </tr>
+        </table>
+
+    </form>
+</div>
+
+@section MyScript
+{
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+    
+
+    <script>
+        $(document).ready(function () {
+
+            var quantity = 0;
+            var unitPrice = 0;
+            $("#Quantity").keyup(function () {
+                if (!IsNullOrEmpty($("#Quantity").val())) {
+                    quantity = parseInt($("#Quantity").val());
+                }
+                if (!IsNullOrEmpty($("#UnitPrice").val())) {
+                    unitPrice = parseInt($("#UnitPrice").val());
+                }
+                $("#TotalPrice").val(quantity * unitPrice); 
+            });
+
+            $("#UnitPrice").keyup(function () {
+                if (!IsNullOrEmpty($("#Quantity").val())) {
+                    quantity = parseInt($("#Quantity").val());
+                }
+                if (!IsNullOrEmpty($("#UnitPrice").val())) {
+                    unitPrice = parseInt($("#UnitPrice").val());
+                }
+                $("#TotalPrice").val(quantity * unitPrice);
+            });
+
+
+            function IsNullOrEmpty(data) {
+                if (data === "" || data === "" || isNaN(data)) {
+                    return true;
+                }
+                return false;
+            }
+        });
+    </script>
+
+    <script>
+        //Supplier date
+        $(document).ready(function () {
+            $('#suppDate').datepicker({
+                dateFormat: "dd/mm/yy",
+                changeMonth: true,
+                changeYear: true,
+                yearRange: "2000:2019",
+                //showOn: "both",
+                //buttonText: "<i class='fa fa-calendar'></i>"
+            });
+        });
+        //Manufacture date
+        $(document).ready(function () {
+            $('#ManufactureDate').datepicker({
+                dateFormat: "dd/mm/yy",
+                changeMonth: true,
+                changeYear: true,
+                yearRange: "2000:2019",
+            });
+        });
+
+        //Expire date
+        $(document).ready(function () {
+            $('#ExpireDate').datepicker({
+                dateFormat: "dd/mm/yy",
+                changeMonth: true,
+                changeYear: true,
+                yearRange: "2000:2019",
+            });
+        });
+
+    </script>
+
+
+
+
+    <script>
+
+        $(document).ready(function () {
+            var index = 0;
+
+            $('#Add').click(function () {
+                var result = GetResultData();
+
+                var resultRow = GerResultRow(result);
+
+                $("#ResultDetailsTable").append(resultRow);
+                index++;
+            });
+
+            function GetResultData() {
+                var category = $('#CategoryId').val();
+                var product = $('#ProductId').val();
+                var code = $('#Code').val();
+                var availableQuantity = $('#AvailableQuantity').val();
+                var manufactureDate = $('#ManufactureDate').val();
+                var expireDate = $('#ExpireDate').val();
+                var quantity = $('#Quantity').val();
+                var unitPrice = $('#UnitPrice').val();
+                var totalPrice = $('#TotalPrice').val();
+                var previousUnitPrice = $('#PreviousUnitPrice').val();
+                var previousMRP = $('#PreviousMRP').val();
+                var MRP = $('#MRP').val();
+                var remarks = $('#Remarks').val();
+
+                return {
+                    CategoryId: category, ProductId: product, Code: code, AvailableQuantity: availableQuantity,
+                    ManufactureDate: manufactureDate, ExpireDate: expireDate, Quantity: quantity, UnitPrice: unitPrice, TotalPrice: totalPrice,
+                    PreviousUnitPrice: previousUnitPrice, PreviousMRP: previousMRP, MRP: MRP, Remarks: remarks
+                }
+            }
+
+            var sl = index;
+            function GerResultRow(result) {
+
+                var categoryHidden = "<input type='hidden' name='PurchaseDetails[" + index + "].CategoryId' value='" + result.CategoryId + "'></div>";
+                var productHidden = "<input type='hidden' name='PurchaseDetails[" + index + "].ProductId' value='" + result.ProductId + "'></div>";
+                var codeHidden = "<input type='hidden' name='PurchaseDetails[" + index + "].Code' value='" + result.Code + "'></div>";
+                var aQuantityHidden = "<input type='hidden' name='PurchaseDetails[" + index + "].AvailableQuantity' value='" + result.AvailableQuantity + "'></div>";
+                var mDateHidden = "<input type='hidden' name='PurchaseDetails[" + index + "].ManufactureDate' value='" + result.ManufactureDate + "'></div>";
+                var eDateHidden = "<input type='hidden' name='PurchaseDetails[" + index + "].ExpireDate' value='" + result.ExpireDate + "'></div>";
+                var quantityHidden = "<input type='hidden' name='PurchaseDetails[" + index + "].Quantity' value='" + result.Quantity + "'></div>";
+                var uPriceHidden = "<input type='hidden' name='PurchaseDetails[" + index + "].UnitPrice' value='" + result.UnitPrice + "'></div>";
+                var tPriceHidden = "<input type='hidden' name='PurchaseDetails[" + index + "].TotalPrice' value='" + result.TotalPrice + "'></div>";
+                var pUPriceHidden = "<input type='hidden' name='PurchaseDetails[" + index + "].PreviousUnitPrice' value='" + result.PreviousUnitPrice + "'></div>";
+                var pMRPHidden = "<input type='hidden' name='PurchaseDetails[" + index + "].PreviousMRP' value='" + result.PreviousMRP + "'></div>";
+                var MRPHidden = "<input type='hidden' name='PurchaseDetails[" + index + "].MRP' value='" + result.MRP + "'></div>";
+                var remarksHidden = "<input type='hidden' name='PurchaseDetails[" + index + "].Remarks' value='" + result.Remarks + "'></div>";
+
+                var startTr = "<tr>";
+                var slCell = "<td class='text-success'>" + (++sl) + "</td>";
+                var categoryCell = "<td class='text-success'>" + categoryHidden + result.CategoryId + "</td>";
+                var productCell = "<td class='text-success'>" + productHidden + result.ProductId + "</td>";
+                var codeCell = "<td class='text-success'>" + codeHidden + result.Code + "</td>";
+                var aQuantityCell = "<td class='text-success'>" + aQuantityHidden + result.AvailableQuantity + "</td>";
+                var mDateCell = "<td class='text-success'>" + mDateHidden + result.ManufactureDate + "</td>";
+                var eDateCell = "<td class='text-success'>" + eDateHidden + result.ExpireDate + "</td>";
+                var quantityCell = "<td class='text-success'>" + quantityHidden + result.Quantity + "</td>";
+                var uPriceCell = "<td class='text-success'>" + uPriceHidden + result.UnitPrice + "</td>";
+                var tPriceCell = "<td class='text-success'>" + tPriceHidden + result.TotalPrice + "</td>";
+                var pUPricCell = "<td class='text-success'>" + pUPriceHidden + result.PreviousUnitPrice + "</td>";
+                var pMRPCell = "<td class='text-success'>" + pMRPHidden + result.PreviousMRP + "</td>";
+                var MRPCell = "<td class='text-success'>" + MRPHidden + result.MRP + "</td>";
+                var remarksCell = "<td class='text-success'>" + remarksHidden + result.Remarks + "</td>";
+                var endTr = "</tr>";
+
+                return (startTr + slCell + categoryCell + productCell + codeCell
+                    + aQuantityCell + mDateCell + eDateCell + quantityCell + uPriceCell
+                    + tPriceCell + pUPricCell + pMRPCell + MRPCell + remarksCell + endTr);
+
+            }
+
+        });
+    </script>
+}
+
+

@@ -1,0 +1,32 @@
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\TheUCFour.DatabaseContext.dll.config
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\TheUCFour.DatabaseContext.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\TheUCFour.DatabaseContext.pdb
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\EntityFramework.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\TheUCFour.Model.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\TheUCFour.Model.pdb
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\EntityFramework.xml
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\obj\Debug\TheUCFour.DatabaseContext.csprojAssemblyReference.cache
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\obj\Debug\TheUCFour.DatabaseContext.Migrations.Initial.resources
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\obj\Debug\TheUCFour.DatabaseContext.csproj.GenerateResource.cache
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\obj\Debug\TheUCFour.DatabaseContext.csproj.CoreCompileInputs.cache
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\obj\Debug\TheUCFour.DatabaseContext.csproj.CopyComplete
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\obj\Debug\TheUCFour.DatabaseContext.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.DatabaseContext\obj\Debug\TheUCFour.DatabaseContext.pdb
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\TheUCFour.DatabaseContext.dll.config
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\TheUCFour.DatabaseContext.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\TheUCFour.DatabaseContext.pdb
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\EntityFramework.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\EntityFramework.SqlServer.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\TheUCFour.Model.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\TheUCFour.Model.pdb
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\EntityFramework.xml
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\bin\Debug\EntityFramework.SqlServer.xml
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\obj\Debug\TheUCFour.DatabaseContext.csprojAssemblyReference.cache
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\obj\Debug\TheUCFour.DatabaseContext.Migrations.Initial.resources
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\obj\Debug\TheUCFour.DatabaseContext.csproj.GenerateResource.cache
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\obj\Debug\TheUCFour.DatabaseContext.csproj.CoreCompileInputs.cache
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\obj\Debug\TheUCFour.DatabaseContext.csproj.CopyComplete
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\obj\Debug\TheUCFour.DatabaseContext.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour.DatabaseContext\obj\Debug\TheUCFour.DatabaseContext.pdb

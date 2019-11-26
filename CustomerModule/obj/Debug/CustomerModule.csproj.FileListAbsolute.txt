@@ -1,0 +1,48 @@
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\CustomerModule.exe.config
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\CustomerModule.exe
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\CustomerModule.pdb
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\EntityFramework.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\TheUCFour.BLL.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\TheUCFour.DatabaseContext.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\TheUCFour.Model.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\TheUCFour.Repository.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\TheUCFour.BLL.pdb
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\TheUCFour.BLL.dll.config
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\TheUCFour.DatabaseContext.pdb
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\TheUCFour.DatabaseContext.dll.config
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\TheUCFour.Model.pdb
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\EntityFramework.xml
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\TheUCFour.Repository.pdb
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\bin\Debug\TheUCFour.Repository.dll.config
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\obj\Debug\CustomerModule.csprojAssemblyReference.cache
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\obj\Debug\CustomerModule.csproj.CoreCompileInputs.cache
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\obj\Debug\CustomerModule.csproj.CopyComplete
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\obj\Debug\CustomerModule.exe
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\CustomerModule\obj\Debug\CustomerModule.pdb
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\CustomerModule.exe.config
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\CustomerModule.exe
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\CustomerModule.pdb
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\EntityFramework.dll
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\EntityFramework.SqlServer.dll
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\TheUCFour.BLL.dll
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\TheUCFour.DatabaseContext.dll
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\TheUCFour.Model.dll
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\TheUCFour.Repository.dll
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\TheUCFour.ViewModel.dll
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\TheUCFour.BLL.pdb
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\TheUCFour.BLL.dll.config
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\TheUCFour.DatabaseContext.pdb
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\TheUCFour.DatabaseContext.dll.config
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\TheUCFour.Model.pdb
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\EntityFramework.xml
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\EntityFramework.SqlServer.xml
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\TheUCFour.Repository.pdb
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\TheUCFour.Repository.dll.config
+G:\CSharpDotNet\TheUCFour\CustomerModule\bin\Debug\TheUCFour.ViewModel.pdb
+G:\CSharpDotNet\TheUCFour\CustomerModule\obj\Debug\CustomerModule.csprojAssemblyReference.cache
+G:\CSharpDotNet\TheUCFour\CustomerModule\obj\Debug\CustomerModule.csproj.CoreCompileInputs.cache
+G:\CSharpDotNet\TheUCFour\CustomerModule\obj\Debug\CustomerModule.csproj.CopyComplete
+G:\CSharpDotNet\TheUCFour\CustomerModule\obj\Debug\CustomerModule.exe
+G:\CSharpDotNet\TheUCFour\CustomerModule\obj\Debug\CustomerModule.pdb
